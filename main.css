@@ -1,0 +1,78 @@
+
+body {
+	background:radial-gradient(#000656, black);
+	height:100vh;
+}
+
+/*Header*/
+
+#header {
+	width:100%;
+	height:75px;
+	position:fixed;
+	top:0;
+	left:0;
+	background:linear-gradient(#3c3c3c, #5e5e5e);
+	border-bottom:5px solid white;
+}
+#videos_button {
+	top:-30px;
+}
+#about_button {
+	top:-23px;
+	width:200px;
+	height:61px;
+}
+.header_button {
+	width:150px;
+	position:relative;
+	top:-25px;
+}
+.header_button:hover {
+	opacity:0.9;
+}
+
+/*Body*/
+
+#main_body {
+	/*border:5px solid white; This border is simply so the box is visible in editing, will not be used in the final product*/
+	width:90%;
+	height:75%;
+	position:relative;
+	top:20%;
+	margin:auto;
+}
+#facebook {
+	width:22.5%;
+	height:40.5%;
+}
+#youtube {
+	width:22.5%;
+	height:40.5%;
+}
+#picture {
+	width:55%;
+	height:65%;
+	position:relative;
+	top:-25.75%;
+}
+#picture:hover {
+	opacity:0.9;
+	box-shadow:0 0 32px white;
+}
+.link {
+	position:relative;
+	top:-25.75%;
+}
+.link:hover {
+	opacity:0.9;
+	box-shadow:0 0 32px white;
+}
+.smallvideo {
+	position:relative;
+	top:-25%;
+}
+.bottom {
+	position:relative;
+	top:-25.75%;
+}
